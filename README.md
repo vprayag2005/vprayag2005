@@ -1,5 +1,5 @@
 # 💫 About Me:
-🎓 B.Tech 2nd Year | AI/ML<br>🛠 Open-Source Contributor
+🎓 B.Tech 3rd Year | AI/ML<br>🛠 Open-Source Contributor
 
 
 ## 🌐 Socials:
