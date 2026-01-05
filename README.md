@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F7DD&center=true&vCenter=true&width=435&lines=AI%2FML+Engineer;Open+Source+Contributor;Python+Developer;Data+Science+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F7DD&center=true&vCenter=true&width=435&lines=AI%2FML+Student;Open+Source+Contributor;Python+Developer;Backend+Enthusiast" alt="Typing SVG" />
 </div>
 
 <h3 align="center">Building the bridge between Data and Intelligence.</h3>
@@ -8,8 +8,8 @@
   <a href="https://linkedin.com/in/prayag-v-82075b298">
     <img src="https://img.shields.io/badge/LinkedIn-Connect_on_LinkedIn-blue?style=for-the-badge&logo=linkedin" />
   </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-c14438?style=for-the-badge&logo=gmail" />
+  <a href="mailto:v.prayag2005@gmail.com">
+    <img src="https://img.shields.io/badge/Email-v.prayag2005%40gmail.com-c14438?style=for-the-badge&logo=gmail" />
   </a>
 </p>
 
@@ -17,18 +17,21 @@
 
 ### 👨‍💻 About Me
 
-I am a **3rd Year B.Tech Student** specializing in **Artificial Intelligence & Machine Learning**. My focus is on **Python development**—building scalable backends and integrating ML models. I am an active open-source contributor looking to solve real-world problems through code.
+I am a **B.Tech student (2023-2027)** majoring in **Artificial Intelligence & Machine Learning** at **Vidya Academy of Science and Technology**. 
+
+I specialize in **Python** and **Backend Development**, with a strong focus on optimizing algorithms and building automated systems. I am passionate about Open Source and currently improving my skills in Data Structures and AI integration.
 
 ---
 
 ### 📊 Engineering Impact
 
 <div align="center">
-  <img src="github-metrics.svg" alt="Metrics" width="100%">
+  <img src="./github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
 <br>
 
+### 🐍 Contribution Activity
 <div align="center">
   <img src="https://github.com/vprayag2005/vprayag2005/blob/output/github-snake-dark.svg" alt="snake" width="100%" />
 </div>
@@ -37,24 +40,24 @@ I am a **3rd Year B.Tech Student** specializing in **Artificial Intelligence & M
 
 ### 🛠️ Technical Arsenal
 
-<h4 align="center">🚀 Core Competency (Primary Stack)</h4>
+<h4 align="center">🚀 Core Competency</h4>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,django" height="65" />
+  <img src="https://skillicons.dev/icons?i=python" height="70" />
 </div>
 
-<h4 align="center">💻 Languages & Tools</h4>
+<h4 align="center">💻 Basics / Familiar</h4>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,c,js,html,css,bootstrap,mysql,git" height="40" />
+  <img src="https://skillicons.dev/icons?i=django,mysql,html,css,js,bootstrap,git,github,vscode" height="40" />
 </div>
 
 ---
 
 ### 🏆 Featured Projects
 
-| Project Name | Stack | Description |
+| Project | Tech Stack | Key Details |
 | :--- | :--- | :--- |
-| **Project 1 Name** | Python, Django | *Replace this text: Brief description of what this project does.* |
-| **Project 2 Name** | Java, MySQL | *Replace this text: Brief description of what this project does.* |
+| **VisumateBot** | Python, Gemini API, MoviePy | • Telegram bot that automates video creation.<br>• Generates scripts using **Gemini AI**, fetches images from **Unsplash**, and syncs audio.<br>• Features real-time interactive user feedback. |
+| **Scientific Calculator** | Pure Python | • **Built without external libraries** to master core algorithms.<br>• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>• Interactive CLI workflow. |
 
 ---
 
