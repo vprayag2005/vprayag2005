@@ -47,7 +47,7 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 <h4 align="center">💻 Basics / Familiar</h4>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=django,mysql,html,css,js,bootstrap,git,github,vscode" height="40" />
+  <img src="https://skillicons.dev/icons?i=django,mysql,html,css,js,bootstrap,git,github" height="40" />
 </div>
 
 ---
