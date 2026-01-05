@@ -1,28 +1,63 @@
-# 💫 About Me:
-🎓 B.Tech 3rd Year | AI/ML<br>🛠 Open-Source Contributor
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F7DD&center=true&vCenter=true&width=435&lines=AI%2FML+Engineer;Open+Source+Contributor;Python+Developer;Data+Science+Enthusiast" alt="Typing SVG" />
+</div>
 
+<h3 align="center">Building the bridge between Data and Intelligence.</h3>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/prayag-v-82075b298) 
-
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-# 📊 GitHub Stats:
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vprayag2005&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vprayag2005&theme=github_dark)![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vprayag2005&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=vprayag2005&theme=github_dark)![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vprayag2005&theme=github_dark&utcOffset=8)
-
-![snake gif](https://github.com/vprayag2005/vprayag2005/blob/output/github-snake-dark.svg)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=vprayag2005&theme=gotham&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=vprayag2005&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <a href="https://linkedin.com/in/prayag-v-82075b298">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect_on_LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-c14438?style=for-the-badge&logo=gmail" />
+  </a>
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=vprayag2005&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 👨‍💻 About Me
+
+I am a **3rd Year B.Tech Student** specializing in **Artificial Intelligence & Machine Learning**. My focus is on **Python development**—building scalable backends and integrating ML models. I am an active open-source contributor looking to solve real-world problems through code.
+
+---
+
+### 📊 Engineering Impact
+
+<div align="center">
+  <img src="https://github.com/vprayag2005/vprayag2005/blob/metrics/github-metrics.svg" alt="Metrics" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/vprayag2005/vprayag2005/blob/output/github-snake-dark.svg" alt="snake" width="100%" />
+</div>
+
+---
+
+### 🛠️ Technical Arsenal
+
+<h4 align="center">🚀 Core Competency (Primary Stack)</h4>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,django" height="65" />
+</div>
+
+<h4 align="center">💻 Languages & Tools</h4>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,c,js,html,css,bootstrap,mysql,git" height="40" />
+</div>
+
+---
+
+### 🏆 Featured Projects
+
+| Project Name | Stack | Description |
+| :--- | :--- | :--- |
+| **Project 1 Name** | Python, Django | *Write one sentence here about your best Python project.* |
+| **Project 2 Name** | Java, MySQL | *Write one sentence here about another project.* |
+
+---
+
+<p align="center">
+  <img src="https://visitcount.itsvg.in/api?id=vprayag2005&icon=0&color=0" />
+</p>
