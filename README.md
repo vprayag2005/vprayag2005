@@ -24,7 +24,7 @@ I am a **3rd Year B.Tech Student** specializing in **Artificial Intelligence & M
 ### 📊 Engineering Impact
 
 <div align="center">
-  <img src="https://github.com/vprayag2005/vprayag2005/blob/metrics/github-metrics.svg" alt="Metrics" width="100%">
+  <img src="github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
 <br>
@@ -53,8 +53,8 @@ I am a **3rd Year B.Tech Student** specializing in **Artificial Intelligence & M
 
 | Project Name | Stack | Description |
 | :--- | :--- | :--- |
-| **Project 1 Name** | Python, Django | *Write one sentence here about your best Python project.* |
-| **Project 2 Name** | Java, MySQL | *Write one sentence here about another project.* |
+| **Project 1 Name** | Python, Django | *Replace this text: Brief description of what this project does.* |
+| **Project 2 Name** | Java, MySQL | *Replace this text: Brief description of what this project does.* |
 
 ---
 
