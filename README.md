@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F7DD&center=true&vCenter=true&width=435&lines=AI%2FML+Student;Open+Source+Contributor;Python+Developer;Backend+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F7DD&center=true&vCenter=true&width=435&lines=Problem+Solver;Open+Source+Contributor;Python+Developer;Building+Impactful+Solutions" alt="Typing SVG" />
 </div>
 
-<h3 align="center">Building the bridge between Data and Intelligence.</h3>
+<h3 align="center">Driven to solve complex problems with efficient code.</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/prayag-v-82075b298">
@@ -17,9 +17,9 @@
 
 ### 👨‍💻 About Me
 
-I am a **B.Tech student (2023-2027)** majoring in **Artificial Intelligence & Machine Learning** at **Vidya Academy of Science and Technology**. 
+I am a **B.Tech student (2023-2027)** majoring in **Artificial Intelligence & Machine Learning**.
 
-I specialize in **Python** and **Backend Development**, with a strong focus on optimizing algorithms and building automated systems. I am passionate about Open Source and currently improving my skills in Data Structures and AI integration.
+My goal is to be a developer who builds **impactful, real-world solutions**. I don't just write code; I analyze problems to create software that adds genuine value. I focus on writing clean, optimized, and scalable code to tackle complex challenges and deliver efficient results.
 
 ---
 
@@ -60,7 +60,3 @@ I specialize in **Python** and **Backend Development**, with a strong focus on o
 | **Scientific Calculator** | Pure Python | • **Built without external libraries** to master core algorithms.<br>• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>• Interactive CLI workflow. |
 
 ---
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=vprayag2005&icon=0&color=0" />
-</p>
