@@ -58,9 +58,13 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 ### 🏆 Featured Projects
 
+<div style="overflow-x: auto;">
+
 | Project | Tech Stack | Key Details |
 | :--- | :--- | :--- |
 | **VisumateBot** | Python, Gemini API, MoviePy | • Telegram bot that automates video creation.<br>• Generates scripts using **Gemini AI**, fetches images from **Unsplash**, and syncs audio.<br>• Features real-time interactive user feedback. |
 | **Scientific Calculator** | Pure Python | • **Built without external libraries** to master core algorithms.<br>• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>• Interactive CLI workflow. |
+
+</div>
 
 ---
