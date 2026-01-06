@@ -58,7 +58,7 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 ### 🏆 Featured Projects
 
-<table>
+<table class="featured-projects-table">
 <thead>
 <tr>
 <th align="left">Project</th>
@@ -90,40 +90,43 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 <style>
 @media (max-width: 768px) {
-  table thead {
+  .featured-projects-table thead {
     display: none;
   }
   
-  table, table tbody, table tr, table td {
+  .featured-projects-table,
+  .featured-projects-table tbody,
+  .featured-projects-table tr,
+  .featured-projects-table td {
     display: block;
     width: 100%;
   }
   
-  table tr {
+  .featured-projects-table tr {
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
   }
   
-  table td {
+  .featured-projects-table td {
     text-align: left !important;
     padding: 8px 0;
     border: none;
   }
   
-  table td:first-child {
+  .featured-projects-table td:first-child {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 8px;
   }
   
-  table td:nth-child(2):before {
+  .featured-projects-table td:nth-child(2):before {
     content: "Tech Stack: ";
     font-weight: bold;
   }
   
-  table td:nth-child(3):before {
+  .featured-projects-table td:nth-child(3):before {
     content: "Key Details:";
     font-weight: bold;
     display: block;
