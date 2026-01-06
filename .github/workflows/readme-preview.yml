@@ -33,9 +33,15 @@ jobs:
             const fs = require('fs');
             
             // Determine the PR number based on the event type
-            const prNumber = context.eventName === 'pull_request' 
+            const prNumber = github.event_name === 'pull_request' 
               ? context.issue.number 
               : parseInt(github.event.inputs.pr_number);
+            
+            // Validate PR number
+            if (!prNumber || isNaN(prNumber)) {
+              core.setFailed('Invalid or missing PR number');
+              return;
+            }
             
             // Read README content safely from file with error handling
             let readmeContent;
