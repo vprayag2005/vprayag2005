@@ -58,9 +58,26 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 ### 🏆 Featured Projects
 
-| Project | Tech Stack | Key Details |
-| :--- | :--- | :--- |
-| **VisumateBot** | Python, Gemini API, MoviePy | • Telegram bot that automates video creation.<br>• Generates scripts using **Gemini AI**, fetches images from **Unsplash**, and syncs audio.<br>• Features real-time interactive user feedback. |
-| **Scientific Calculator** | Pure Python | • **Built without external libraries** to master core algorithms.<br>• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>• Interactive CLI workflow. |
+<div>
+  <h4>🤖 VisumateBot</h4>
+  <p><strong>Tech Stack:</strong> Python, Gemini API, MoviePy</p>
+  <p><strong>Key Details:</strong></p>
+  <ul>
+    <li>Telegram bot that automates video creation.</li>
+    <li>Generates scripts using <strong>Gemini AI</strong>, fetches images from <strong>Unsplash</strong>, and syncs audio.</li>
+    <li>Features real-time interactive user feedback.</li>
+  </ul>
+</div>
+
+<div>
+  <h4>🧮 Scientific Calculator</h4>
+  <p><strong>Tech Stack:</strong> Pure Python</p>
+  <p><strong>Key Details:</strong></p>
+  <ul>
+    <li><strong>Built without external libraries</strong> to master core algorithms.</li>
+    <li>Implemented complex math functions (Roots, Logs, Factorials) from scratch.</li>
+    <li>Interactive CLI workflow.</li>
+  </ul>
+</div>
 
 ---
