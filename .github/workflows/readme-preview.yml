@@ -33,9 +33,9 @@ jobs:
             const fs = require('fs');
             
             // Determine the PR number based on the event type
-            const prNumber = github.event_name === 'pull_request' 
+            const prNumber = context.eventName === 'pull_request' 
               ? context.issue.number 
-              : parseInt(github.event.inputs.pr_number);
+              : parseInt(context.payload.inputs.pr_number);
             
             // Validate PR number
             if (!prNumber || isNaN(prNumber)) {
