@@ -58,13 +58,78 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 ### 🏆 Featured Projects
 
-<div style="overflow-x: auto;">
+<table>
+<thead>
+<tr>
+<th align="left">Project</th>
+<th align="left">Tech Stack</th>
+<th align="left">Key Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>VisumateBot</strong></td>
+<td align="left">Python, Gemini API, MoviePy</td>
+<td align="left">
+• Telegram bot that automates video creation.<br>
+• Generates scripts using <strong>Gemini AI</strong>, fetches images from <strong>Unsplash</strong>, and syncs audio.<br>
+• Features real-time interactive user feedback.
+</td>
+</tr>
+<tr>
+<td align="left"><strong>Scientific Calculator</strong></td>
+<td align="left">Pure Python</td>
+<td align="left">
+• <strong>Built without external libraries</strong> to master core algorithms.<br>
+• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>
+• Interactive CLI workflow.
+</td>
+</tr>
+</tbody>
+</table>
 
-| Project | Tech Stack | Key Details |
-| :--- | :--- | :--- |
-| **VisumateBot** | Python, Gemini API, MoviePy | • Telegram bot that automates video creation.<br>• Generates scripts using **Gemini AI**, fetches images from **Unsplash**, and syncs audio.<br>• Features real-time interactive user feedback. |
-| **Scientific Calculator** | Pure Python | • **Built without external libraries** to master core algorithms.<br>• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>• Interactive CLI workflow. |
-
-</div>
+<style>
+@media (max-width: 768px) {
+  table thead {
+    display: none;
+  }
+  
+  table, table tbody, table tr, table td {
+    display: block;
+    width: 100%;
+  }
+  
+  table tr {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  table td {
+    text-align: left !important;
+    padding: 8px 0;
+    border: none;
+  }
+  
+  table td:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  table td:nth-child(2):before {
+    content: "Tech Stack: ";
+    font-weight: bold;
+  }
+  
+  table td:nth-child(3):before {
+    content: "Key Details:";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+  }
+}
+</style>
 
 ---
