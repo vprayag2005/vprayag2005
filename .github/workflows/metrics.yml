@@ -32,6 +32,7 @@ jobs:
           # Shows Merged PRs & Issues Overview (not per-repository)
           plugin_followup: yes
           plugin_followup_sections: user
+          plugin_followup_archived: yes
           
           # Shows Languages
           plugin_languages: yes
