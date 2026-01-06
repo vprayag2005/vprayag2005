@@ -1,3 +1,4 @@
+<!-- README Preview Demo -->
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=23F7DD&center=true&vCenter=true&width=435&lines=Problem+Solver;Open+Source+Contributor;Python+Developer;Building+Impactful+Solutions" alt="Typing SVG" />
 </div>
