@@ -27,12 +27,18 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            const prNumber = parseInt(context.payload.inputs.pr_number);
+            if (!prNumber || isNaN(prNumber)) {
+              core.setFailed('Invalid PR number provided');
+              return;
+            }
             const { data: pr } = await github.rest.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              pull_number: ${{ inputs.pr_number }}
+              pull_number: prNumber
             });
             core.setOutput('head_sha', pr.head.sha);
+            console.log(`Fetched PR #${prNumber} with head SHA: ${pr.head.sha}`);
       
       - name: Checkout PR branch
         uses: actions/checkout@v4
