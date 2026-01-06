@@ -106,30 +106,52 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 10px;
+    padding: 15px;
+    background: #f9f9f9;
   }
   
   .featured-projects-table td {
     text-align: left !important;
-    padding: 8px 0;
+    padding: 0;
     border: none;
+    margin-bottom: 12px;
+  }
+  
+  .featured-projects-table td:last-child {
+    margin-bottom: 0;
   }
   
   .featured-projects-table td:first-child {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
-    margin-bottom: 8px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  .featured-projects-table td:nth-child(2) {
+    padding: 8px 0;
   }
   
   .featured-projects-table td:nth-child(2):before {
-    content: "Tech Stack: ";
+    content: "🛠️ Tech Stack";
+    display: block;
     font-weight: bold;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .featured-projects-table td:nth-child(3) {
+    padding: 8px 0;
   }
   
   .featured-projects-table td:nth-child(3):before {
-    content: "Key Details:";
-    font-weight: bold;
+    content: "📋 Key Details";
     display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #666;
     margin-bottom: 4px;
   }
 }
