@@ -24,10 +24,12 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         id: pr_details
         uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ inputs.pr_number }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const prNumber = parseInt(context.payload.inputs.pr_number);
+            const prNumber = parseInt(process.env.PR_NUMBER);
             if (isNaN(prNumber) || prNumber < 1) {
               core.setFailed('Invalid PR number provided');
               return;
@@ -43,19 +45,23 @@ jobs:
       - name: Checkout PR branch
         uses: actions/checkout@v4
         with:
+          # Fallback chain for ref:
+          # 1) use PR head SHA directly for pull_request events
+          # 2) otherwise use head SHA fetched in pr_details for workflow_dispatch
+          # 3) finally fall back to the current workflow commit SHA
           ref: ${{ github.event.pull_request.head.sha || steps.pr_details.outputs.head_sha || github.sha }}
       
       - name: Post preview comment
         uses: actions/github-script@v7
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             
-            // Determine the PR number based on the event type
-            const prNumber = context.eventName === 'pull_request' 
-              ? context.issue.number 
-              : parseInt(context.payload.inputs.pr_number);
+            // Get PR number from environment variable
+            const prNumber = parseInt(process.env.PR_NUMBER);
             
             // Validate PR number
             if (isNaN(prNumber) || prNumber < 1) {
