@@ -35,7 +35,7 @@ jobs:
             // Determine the PR number based on the event type
             const prNumber = context.eventName === 'pull_request' 
               ? context.issue.number 
-              : ${{ inputs.pr_number }};
+              : parseInt(github.event.inputs.pr_number);
             
             // Read README content safely from file with error handling
             let readmeContent;
