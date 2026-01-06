@@ -6,6 +6,11 @@ on:
       - 'README.md'
     types: [opened, synchronize, reopened]
   workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number to post preview comment'
+        required: true
+        type: number
 
 jobs:
   preview:
@@ -21,12 +26,16 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha || github.sha }}
       
       - name: Post preview comment
-        if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+            
+            // Determine the PR number based on the event type
+            const prNumber = context.eventName === 'pull_request' 
+              ? context.issue.number 
+              : ${{ inputs.pr_number }};
             
             // Read README content safely from file with error handling
             let readmeContent;
@@ -58,7 +67,7 @@ jobs:
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              issue_number: prNumber,
             });
             
             const botComment = comments.find(comment => 
@@ -80,7 +89,7 @@ jobs:
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  issue_number: context.issue.number,
+                  issue_number: prNumber,
                   body: commentBody
                 });
                 console.log('Created new preview comment');
