@@ -29,5 +29,9 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           
+          # Shows Merged PRs & Issues Overview (not per-repository)
+          plugin_followup: yes
+          plugin_followup_sections: user
+          
           # Shows Languages
           plugin_languages: yes
