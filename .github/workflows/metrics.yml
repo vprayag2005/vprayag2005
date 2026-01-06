@@ -20,7 +20,7 @@ jobs:
           # Options
           user: vprayag2005
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, metadata
           config_timezone: Asia/Kolkata
           
           # Shows Lines of Code
@@ -29,10 +29,10 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           
-          # Shows Merged PRs & Issues
+          # Shows Merged PRs & Issues Overview (not per-repository)
           plugin_followup: yes
+          plugin_followup_sections: user
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories
           
           # Shows Languages
           plugin_languages: yes
