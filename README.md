@@ -58,9 +58,103 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 
 ### 🏆 Featured Projects
 
-| Project | Tech Stack | Key Details |
-| :--- | :--- | :--- |
-| **VisumateBot** | Python, Gemini API, MoviePy | • Telegram bot that automates video creation.<br>• Generates scripts using **Gemini AI**, fetches images from **Unsplash**, and syncs audio.<br>• Features real-time interactive user feedback. |
-| **Scientific Calculator** | Pure Python | • **Built without external libraries** to master core algorithms.<br>• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>• Interactive CLI workflow. |
+<table class="featured-projects-table">
+<thead>
+<tr>
+<th align="left">Project</th>
+<th align="left">Tech Stack</th>
+<th align="left">Key Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>VisumateBot</strong></td>
+<td align="left">Python, Gemini API, MoviePy</td>
+<td align="left">
+• Telegram bot that automates video creation.<br>
+• Generates scripts using <strong>Gemini AI</strong>, fetches images from <strong>Unsplash</strong>, and syncs audio.<br>
+• Features real-time interactive user feedback.
+</td>
+</tr>
+<tr>
+<td align="left"><strong>Scientific Calculator</strong></td>
+<td align="left">Pure Python</td>
+<td align="left">
+• <strong>Built without external libraries</strong> to master core algorithms.<br>
+• Implemented complex math functions (Roots, Logs, Factorials) from scratch.<br>
+• Interactive CLI workflow.
+</td>
+</tr>
+</tbody>
+</table>
+
+<style>
+@media (max-width: 768px) {
+  .featured-projects-table thead {
+    display: none;
+  }
+  
+  .featured-projects-table,
+  .featured-projects-table tbody,
+  .featured-projects-table tr,
+  .featured-projects-table td {
+    display: block;
+    width: 100%;
+  }
+  
+  .featured-projects-table tr {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #f9f9f9;
+  }
+  
+  .featured-projects-table td {
+    text-align: left !important;
+    padding: 0;
+    border: none;
+    margin-bottom: 12px;
+  }
+  
+  .featured-projects-table td:last-child {
+    margin-bottom: 0;
+  }
+  
+  .featured-projects-table td:first-child {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  .featured-projects-table td:nth-child(2) {
+    padding: 8px 0;
+  }
+  
+  .featured-projects-table td:nth-child(2):before {
+    content: "🛠️ Tech Stack";
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .featured-projects-table td:nth-child(3) {
+    padding: 8px 0;
+  }
+  
+  .featured-projects-table td:nth-child(3):before {
+    content: "📋 Key Details";
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 4px;
+  }
+}
+</style>
 
 ---
