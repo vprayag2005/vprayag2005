@@ -29,6 +29,10 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
   <img src="./github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Total_Lines_Written-573+-blue?style=for-the-badge&logo=github" alt="Lines of Code" />
+</p>
+
 <br>
 
 ### 🐍 Contribution Activity
