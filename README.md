@@ -17,7 +17,7 @@
 
 ### 👨‍💻 About Me
 
-I am a **B.Tech student (2023-2027)** majoring in **Artificial Intelligence & Machine Learning**.
+I am a **B.Tech student (2023–2027)** majoring in **Artificial Intelligence & Machine Learning**.
 
 My goal is to be a developer who builds **impactful, real-world solutions**. I don't just write code; I analyze problems to create software that adds genuine value. I focus on writing clean, optimized, and scalable code to tackle complex challenges and deliver efficient results.
 
@@ -26,18 +26,15 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 ### 📊 Engineering Impact
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="Metrics" width="100%">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%">
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Total_Lines_Written-573+-blue?style=for-the-badge&logo=github" alt="Lines of Code" />
-</p>
-
-<br>
+---
 
 ### 🐍 Contribution Activity
+
 <div align="center">
-  <img src="https://github.com/vprayag2005/vprayag2005/blob/output/github-snake-dark.svg" alt="snake" width="100%" />
+  <img src="https://github.com/vprayag2005/vprayag2005/blob/output/github-snake-dark.svg" alt="Contribution Snake" width="100%" />
 </div>
 
 ---
@@ -61,7 +58,6 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 <div>
   <h4>🤖 VisumateBot</h4>
   <p><strong>Tech Stack:</strong> Python, Gemini API, MoviePy</p>
-  <p><strong>Key Details:</strong></p>
   <ul>
     <li>Telegram bot that automates video creation.</li>
     <li>Generates scripts using <strong>Gemini AI</strong>, fetches images from <strong>Unsplash</strong>, and syncs audio.</li>
@@ -72,7 +68,6 @@ My goal is to be a developer who builds **impactful, real-world solutions**. I d
 <div>
   <h4>🧮 Scientific Calculator</h4>
   <p><strong>Tech Stack:</strong> Pure Python</p>
-  <p><strong>Key Details:</strong></p>
   <ul>
     <li><strong>Built without external libraries</strong> to master core algorithms.</li>
     <li>Implemented complex math functions (Roots, Logs, Factorials) from scratch.</li>
